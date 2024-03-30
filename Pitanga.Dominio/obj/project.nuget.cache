@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ezjWlafQ/SCG3B7lIykH0A0qdazK42UcBOEdUzn/uya1ETb9roh2bIq2c7RQ0+AlAjbMLWU1vW8TYV2EqVQXNg==",
+  "success": true,
+  "projectFilePath": "/Users/samuelaraag/Downloads/documentos/projetos/Pitanga-Nutri/Pitanga.Dominio/Pitanga.Dominio.csproj",
+  "expectedPackageFiles": [
+    "/Users/samuelaraag/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/samuelaraag/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/samuelaraag/.nuget/packages/npgsql/8.0.2/npgsql.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

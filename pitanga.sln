@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitanga.API", "pitanga\Pitanga.API.csproj", "{B5539287-F32F-4172-85ED-7E03492D3EF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitanga.Dominio", "Pitanga.Dominio\Pitanga.Dominio.csproj", "{75F14A66-FC08-489E-B1E8-E36BD10E8C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitanga.Testes", "Pitanga.Testes\Pitanga.Testes.csproj", "{7CD8850B-1E32-495B-BC7B-13BB5B5052DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5539287-F32F-4172-85ED-7E03492D3EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5539287-F32F-4172-85ED-7E03492D3EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5539287-F32F-4172-85ED-7E03492D3EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5539287-F32F-4172-85ED-7E03492D3EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F14A66-FC08-489E-B1E8-E36BD10E8C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F14A66-FC08-489E-B1E8-E36BD10E8C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F14A66-FC08-489E-B1E8-E36BD10E8C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F14A66-FC08-489E-B1E8-E36BD10E8C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CD8850B-1E32-495B-BC7B-13BB5B5052DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD8850B-1E32-495B-BC7B-13BB5B5052DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD8850B-1E32-495B-BC7B-13BB5B5052DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD8850B-1E32-495B-BC7B-13BB5B5052DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F66FAFEE-7EFF-4F93-8B2D-3680AD0EB552}
+	EndGlobalSection
+EndGlobal

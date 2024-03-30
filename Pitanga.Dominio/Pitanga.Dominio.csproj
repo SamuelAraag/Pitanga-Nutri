@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Servicos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Servicos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="8.0.2" />
+  </ItemGroup>
+</Project>
