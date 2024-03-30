@@ -1,8 +1,8 @@
 ﻿namespace Pitanga.Dominio;
 
-public class CarnesEPescados
+public class NutrientesAcidosGraxos
 {
     public int Id { get; set; }
-    public string Nome { get; set; } = string.Empty;
-    public double Calorias { get; set; }
+    public double Saturados_g { get; set; }
+    public double Monoinsaturados_g { get; set; }
 }

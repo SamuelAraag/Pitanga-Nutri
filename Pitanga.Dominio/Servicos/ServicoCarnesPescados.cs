@@ -8,34 +8,26 @@ namespace Pitanga.Dominio.Servicos
 		{
 		}
 
-        public async Task<List<CarnesEPescados>> ObterTodos()
+        public async Task<List<Alimentos>> ObterTodos()
         {
-            var result = new List<CarnesEPescados>();
+            var result = new List<Alimentos>();
 
-            using (var conexao = new NpgsqlConnection(@"Server=localhost;Port=5432;User Id=postgres;Password=1234;Database=BANCO-TACO"))
+            using var conexao = new NpgsqlConnection(@"Server=localhost;Port=5432;User Id=samuelaraag;Database=base_taco");
+            await conexao.OpenAsync();
+
+            using var cmd = new NpgsqlCommand("SELECT * FROM nutri.alimentos", conexao);
+            using var reader = await cmd.ExecuteReaderAsync();
+            while (await reader.ReadAsync())
             {
-                await conexao.OpenAsync();
-
-                using (var cmd = new NpgsqlCommand("SELECT * FROM \"carnes-pescados\"", conexao))
+                result.Add(new Alimentos
                 {
-                    using (var reader = await cmd.ExecuteReaderAsync())
-                    {
-                        while (await reader.ReadAsync())
-                        {
-                            result.Add(new CarnesEPescados
-                            {
-                                Id = reader.GetInt32(reader.GetOrdinal("id")),
-                                Nome = reader.GetString(reader.GetOrdinal("nome")),
-                                Calorias = reader.GetDouble(reader.GetOrdinal("calorias"))
-                            });
-                        }
-                    }
-                }
+                    Id = reader.GetInt32(reader.GetOrdinal("id")),
+                    Nome = reader.GetString(reader.GetOrdinal("nome"))
+                });
             }
 
             return result;
         }
-
     }
 }
 

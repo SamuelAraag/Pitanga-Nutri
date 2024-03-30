@@ -16,7 +16,7 @@ public class CalculoCaloriasController : ControllerBase
     }
 
     [HttpGet()]
-    public async Task<List<CarnesEPescados>> Get()
+    public async Task<List<Alimentos>> Get()
     {
         //pegar conexao
         var servicoCarnesPescados = new ServicoCarnesPescados();

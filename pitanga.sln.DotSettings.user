@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ff724045_002Ded33_002D4b84_002Daf01_002D06c02cdb7154/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Get_EndpointRetornaSucessoEConteudoCorreto" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::7CD8850B-1E32-495B-BC7B-13BB5B5052DD::net7.0::Pitanga.Testes.CalculoCaloriasTeste.Get_EndpointRetornaSucessoEConteudoCorreto&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
